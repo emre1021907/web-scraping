@@ -16,7 +16,6 @@ listem = []
 for row in table.findAll('h2', attrs={'class': 'headline--default'}):
     element = row.text
     element2 = element.strip()
-    element2.
     listem.append(element2)
 
 print(listem)
